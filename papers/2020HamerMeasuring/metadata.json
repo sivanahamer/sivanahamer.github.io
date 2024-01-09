@@ -1,0 +1,9 @@
+{
+    "title": "Measuring students' contributions in software development projects using Git metrics",
+    "link": "https://ieeexplore.ieee.org/abstract/document/9458363",
+    "authors": ["SH", "CQL", "AM", "MJ"],
+    "year": 2020,
+    "venue": "CLEI",
+    "keywords": ["contribution metrics" , "mining software repositories" , "software metrics" , "git" , "software engineering education" , "project-based learning"],
+    "video": "https://youtu.be/qOc_inKkePg"
+}

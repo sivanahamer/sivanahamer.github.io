@@ -1,0 +1,9 @@
+{
+    "title": "Automatically recovering students' missing trace links between commits and user stories",
+    "link": "https://www.kerwa.ucr.ac.cr/handle/10669/89717",
+    "authors": ["SH", "CQL", "MJ"],
+    "year": 2021,
+    "venue": "CIbSE",
+    "keywords": ["software engineering education", "traceability", "link recovery", "information retrieval", "machine learning", "mining software repositories"],
+    "video": "https://www.youtube.com/live/gQ_MP0b0UIM?feature=share&t=1508"
+}
