@@ -5,5 +5,7 @@
     "year": 2021,
     "venue": "QUATIC",
     "keywords": ["software engineering education", "mining software repositories", "commit-impact analysis", "software quality", "project based learning"],
-    "video": ""
+    "video": "",
+    "isSlides": true,
+    "abstract": "Monitoring and examining source code and quality metrics is an essential task in software development projects. Still, it is challenging to evaluate for educational projects due to the time and effort required by instructors, and constant change during the software project evolution. In this paper, we used an automated approach to analyze source code and quality metrics' evolution and impact in software engineering projects using static code analysis on each software change (commits and merges). We examined five undergraduate software engineering projects' changed modules, compilability, and source code and quality metrics (size, complexity, duplication, maintainability, and security). In total, we assessed 12,103 changes from 103 students contributing to the projects. Our approach allowed us to identify students' project trends in the impact of the source code changes, providing insights into behaviors such as technology knowledge deficiencies, issues in continuous integration practices, and software quality degradation. We believe that the early, constant feedback on student software engineering project quality can help instructors improve their courses and students enhance their development practices. Tracking of source code evolution could be done via static analysis and instructors could use the analysis results for teaching."
 }
