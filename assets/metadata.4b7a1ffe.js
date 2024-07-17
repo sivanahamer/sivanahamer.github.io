@@ -1,0 +1,1 @@
+const e="Exploring Students\u2019 Behaviors and Perceptions in Continuous Measurement of Software Projects",t=["CQL","SH","MJ"],o=2024,a="CLEI";var n={title:e,authors:t,year:2024,venue:a};export{t as authors,n as default,e as title,a as venue,o as year};
