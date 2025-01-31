@@ -1,5 +1,10 @@
 [
   {
+    "venue": "TOSEM",
+    "name": "Transactions on Software Engineering and Methodology",
+    "type": "journal"
+  },
+  {
     "venue": "DLSP",
     "name": "Deep Learning Security and Privacy Workshop",
     "type": "workshop"

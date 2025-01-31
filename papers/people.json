@@ -28,5 +28,70 @@
     "name": "Marcelo d'Amorim",
     "tag": "MD",
     "link": "https://damorim.github.io/"
+  },
+  {
+    "name": "Giacomo Benedetti",
+    "tag": "GB",
+    "link": "https://scholar.google.com/citations?user=RGv45JIAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "name": "Ranindya Paramitha",
+    "tag": "RP",
+    "link": "https://ranindyap.github.io/"
+  },
+  {
+    "name": "Imranur Rahman",
+    "tag": "IR",
+    "link": "https://imranur-rahman.github.io/"
+  },
+  {
+    "name": "Mahzabin Tamanna",
+    "tag": "MT",
+    "link": "https://sites.google.com/view/mahzabintamanna/home"
+  },
+  {
+    "name": "Greg Tystahl",
+    "tag": "GT",
+    "link": "https://www.linkedin.com/in/gregory-tystahl-61516a1b0/"
+  },
+  {
+    "name": "Nusrat Zahan",
+    "tag": "NZ",
+    "link": "https://www.nzahan.net/"
+  },
+  {
+    "name": "Pat Morrison",
+    "tag": "PM",
+    "link": "https://www.linkedin.com/in/pmorrisonfl/"
+  },
+  {
+    "name": "Yasemin Acar",
+    "tag": "YA",
+    "link": "https://yaseminacar.de/"
+  },
+  {
+    "name": "Michel Cukier",
+    "tag": "MC",
+    "link": "https://scholar.google.com/citations?hl=en&user=b4zPppsAAAAJ&view_op=list_works&sortby=pubdate"
+  },
+  {
+    "name": "Christian Kästner",
+    "tag": "CK",
+    "link": "https://www.cs.cmu.edu/~ckaestne/"
+  },
+  {
+    "name": "Alexandros Kapravelos",
+    "tag": "AK",
+    "link": "https://www.kapravelos.com/"
+  },
+  {
+    "name": "Dominik Wermke",
+    "tag": "DW",
+    "link": "https://dwermke.com/"
+  },
+  {
+    "name": "William Enck",
+    "tag": "WE",
+    "link": "https://enck.org/"
   }
 ]
