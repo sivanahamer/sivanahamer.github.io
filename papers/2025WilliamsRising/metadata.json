@@ -1,0 +1,8 @@
+{
+    "title": "Can the Rising Tide of Software Supply Chain Attacks Raise All Software Engineering Boats?",
+    "link": "https://dl.acm.org/doi/10.1145/3714464",
+    "authors": ["LW", "SH", "NZ"],
+    "year": 2025,
+    "venue": "FSE",
+    "abstract": "Software organizations largely did not anticipate how the software supply chain (SSC) would become a deliberate attack vector. Attackers have moved from finding and exploiting vulnerabilities contributed by well-intentioned developers, such as log4j, to a new generation of software supply chain attacks, aggressively implanting vulnerabilities directly into dependencies available in open source. As with SolarWinds, adversaries also find their way into builds and deployments to deploy rogue software. Once implanted, these vulnerabilities become an efficient attack vector for adversaries to gain leverage at scale by exploiting the software supply chain. Software supply chain attacks have increased exponentially since 2020. These attacks have heightened awareness among governments and software organizations worldwide of the need for software development teams to adopt good software security practices - and, in the process, good software engineering practices. This awareness has led to two US Executive Orders, the EU Cyber Resilience Act, and other actions worldwide. For example, the CEOs of software organizations who sell to the US government now need to sign a document attesting that good software security/engineering practices were used. This paper will share an overview of these actions, empirical observations in the state-of-practice in software security practice adoption, automated software practice measurement, and how these efforts can move into general software engineering."
+}

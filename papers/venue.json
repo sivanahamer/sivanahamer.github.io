@@ -1,4 +1,9 @@
 [
+    {
+    "venue": "FSE",
+    "name": "Foundations of Software Engineering",
+    "type": "conference"
+  },
   {
     "venue": "TSE",
     "name": "Transactions on Software Engineering",
