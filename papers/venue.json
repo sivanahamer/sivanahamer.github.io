@@ -1,5 +1,10 @@
 [
-    {
+  {
+    "venue": "ICSE",
+    "name": "International Conference on Software Engineering",
+    "type": "conference"
+  },
+  {
     "venue": "FSE",
     "name": "Foundations of Software Engineering",
     "type": "conference"

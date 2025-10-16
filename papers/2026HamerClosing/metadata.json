@@ -1,0 +1,8 @@
+{
+    "title": "Closing the Chain: How to reduce your risk of being SolarWinds, Log4j, or XZ Utils",
+    "link": "https://arxiv.org/abs/2503.12192",
+    "authors": ["SH", "JB", "NH", "RH", "CM", "LW"],
+    "year": 2026,
+    "venue": "ICSE",
+    "abstract": "Software supply chain frameworks, such as the US NIST Secure Software Development Framework (SSDF), detail what tasks software development organizations are recommended or mandated to adopt to reduce security risk. However, to further reduce the risk of similar attacks occurring, software organizations benefit from knowing what tasks mitigate attack techniques the attackers are currently using to address specific threats, prioritize tasks, and close mitigation gaps. The goal of this study is to aid software organizations in reducing the risk of software supply chain attacks by systematically synthesizing how framework tasks mitigate the attack techniques used in the SolarWinds, Log4j, and XZ Utils attacks. We qualitatively analyzed 106 Cyber Threat Intelligence (CTI) reports of the 3 attacks to gather the attack techniques. We then systematically constructed a mapping between attack techniques and the 73 tasks enumerated in 10 software supply chain frameworks. Afterward, we established and ranked priority tasks that mitigate attack techniques. The three mitigation tasks with the highest scores are role-based access control, system monitoring, and boundary protection. Additionally, three mitigation tasks were missing from all ten frameworks, including sustainable open-source software and environmental scanning tools. Thus, software products would still be vulnerable to software supply chain attacks even if organizations adopted all recommended tasks."
+}
