@@ -1,0 +1,259 @@
+papers:
+  - id: 2020HamerMeasuring
+    title: "Measuring students' contributions in software development projects using Git metrics"
+    link: "https://ieeexplore.ieee.org/abstract/document/9458363"
+    authors:
+      - "SH"
+      - "CQL"
+      - "AM"
+      - "MJ"
+    year: 2020
+    venue: "CLEI"
+    keywords:
+      - "contribution metrics"
+      - "mining software repositories"
+      - "software metrics"
+      - "git"
+      - "software engineering education"
+      - "project-based learning"
+    video: "https://youtu.be/qOc_inKkePg"
+    material: "https://github.com/sivanahamer/measuring-students-contributions-git-metrics"
+    isSlides: true
+    abstract: >-
+      Many courses in the software engineering area are centered around team-based project development. Evaluating these projects is a challenge due to the difficulty of measuring individual student contributions versus team contributions. The adoption of distributed version control systems like Git enables the measurement of students' and teams' contributions to the project. In this work, we analyze the contributions within five software development projects from undergraduate courses that used project-based learning. For this, we generate visualizations of aggregated Git metrics using inequality indexes and inter-decile ratios, which offer insights into the practices and processes followed by students and teams throughout the project development. This approach allowed us to identify both inequality among students' contributions and development processes with a non-steady pace, rendering a useful feedback tool for instructors and students during the development of the project. Further studies can be conducted to assess the complexity and value of students' contributions by analyzing their source code commits and other software artifacts.
+    files:
+      slides: "/files/slides/2020HamerMeasuring.pdf"
+  - id: 2021HamerAutomatically
+    title: "Automatically recovering students' missing trace links between commits and user stories"
+    link: "https://www.kerwa.ucr.ac.cr/handle/10669/89717"
+    authors:
+      - "SH"
+      - "CQL"
+      - "MJ"
+    year: 2021
+    venue: "CIbSE"
+    keywords:
+      - "software engineering education"
+      - "traceability"
+      - "link recovery"
+      - "information retrieval"
+      - "machine learning"
+      - "mining software repositories"
+    video: "https://www.youtube.com/live/gQ_MP0b0UIM?feature=share&t=1508"
+    isSlides: true
+    abstract: >-
+      Trace links between commits and user stories can be used in educational software engineering projects to track progress and determine the students' contribution to projects' requirements. Thus, traceability can be helpful in courses for grade assessment, and project monitoring and improvement. Currently developers, including students in courses, manually link commits and issues using version control systems (e.g., Git) and issue tracking systems (e.g., Jira). However, manual trace links are often incomplete. In our study, we found that only 43% of the commits are linked to stories in the analyzed project. Therefore, there is a need to automatically or semi-automatically create trace links. This study aims to automatically recover trace links between commits and user stories requirements in an undergraduate student project with twenty students and four teams. We used unstructured data from messages, code and files of commits and stories to gather textual similarity measures. We evaluated the effectiveness of information retrieval (Vector space model, Latent semantic indexing and BM25) and machine learning (Random forests, Decision trees and Neural networks) techniques in recovering missing links using textual and process data. Machine learning models outperformed information retrieval models in precision, recall, and F-measure. Machine learning models were able to effectively recover missing trace links with an average of 93% precision and 94% recall, showing the applicability of the approach.
+    files:
+      slides: "/files/slides/2021HamerAutomatically.pdf"
+  - id: 2021HamerMeasuring
+    title: "Measuring students' source code quality in software development projects through commit-impact analysis"
+    link: "https://link.springer.com/chapter/10.1007/978-3-030-68418-1_11"
+    authors:
+      - "SH"
+      - "CQL"
+      - "AM"
+      - "MJ"
+    year: 2021
+    venue: "ICITS"
+    keywords:
+      - "software engineering education"
+      - "mining software repositories"
+      - "commit-impact analysis"
+      - "software quality"
+      - "project based learning"
+    video: ""
+    material: "https://github.com/sivanahamer/measuring-code-quality-students-commit-impact"
+    abstract: >-
+      Evaluating the quality of software engineering projects in university courses is challenging because it evolves over time and is a time consuming task. Students applying software quality principles need early and constant feedback on their projects to improve their technical competence as software developers. We conducted a case study to explore whether student’ changes have an impact on the project quality by mining a Git repository. We analyzed a total of 2253 changes (commits) from an undergraduate software engineering project to understand the impact on quality of each change measuring metrics (complexity, duplication, maintainability, and security) mined from the repository. This analysis allowed us to identify from students’ contributions challenges and improvement opportunities in engineering practices. As future work, we plan to analyze more projects and extend our analysis with more software metrics.
+    files: {}
+  - id: 2021HamerStudents
+    title: "Students Projects' Source Code Changes Impact on Software Quality Through Static Analysis"
+    link: "https://link.springer.com/chapter/10.1007/978-3-030-85347-1_39"
+    authors:
+      - "SH"
+      - "CQL"
+      - "MJ"
+    year: 2021
+    venue: "QUATIC"
+    keywords:
+      - "software engineering education"
+      - "mining software repositories"
+      - "commit-impact analysis"
+      - "software quality"
+      - "project based learning"
+    video: ""
+    isSlides: true
+    abstract: >-
+      Monitoring and examining source code and quality metrics is an essential task in software development projects. Still, it is challenging to evaluate for educational projects due to the time and effort required by instructors, and constant change during the software project evolution. In this paper, we used an automated approach to analyze source code and quality metrics' evolution and impact in software engineering projects using static code analysis on each software change (commits and merges). We examined five undergraduate software engineering projects' changed modules, compilability, and source code and quality metrics (size, complexity, duplication, maintainability, and security). In total, we assessed 12,103 changes from 103 students contributing to the projects. Our approach allowed us to identify students' project trends in the impact of the source code changes, providing insights into behaviors such as technology knowledge deficiencies, issues in continuous integration practices, and software quality degradation. We believe that the early, constant feedback on student software engineering project quality can help instructors improve their courses and students enhance their development practices. Tracking of source code evolution could be done via static analysis and instructors could use the analysis results for teaching.
+    files:
+      slides: "/files/slides/2021HamerStudents.pdf"
+  - id: 2021HamerUsing
+    title: "Using git metrics to measure students' and teams' code contributions in software development projects"
+    link: "https://www.clei.org/cleiej/index.php/cleiej/article/view/502/409"
+    authors:
+      - "SH"
+      - "CQL"
+      - "AM"
+      - "MJ"
+    year: 2021
+    venue: "CLEIj"
+    keywords:
+      - "git contribution metrics"
+      - "mining software repositories"
+      - "software engineering education"
+      - "continuous assessment"
+      - "project-based learning"
+    video: "https://youtu.be/qOc_inKkePg"
+    abstract: >-
+      Many software engineering courses are centered around team-based project development. Analyzing the source code contributions during the projects' development could provide both instructors and students with constant feedback to identify common trends and behaviors that can be improved during the courses. Evaluating course projects is a challenge due to the difficulty of measuring individual student contributions versus team contributions during the development. The adoption of distributed version control sys-tems like git enable the measurement of students' and teams' contributions to the project.In this work, we analyze the contributions within eight software development projects,with 150 students in total, from undergraduate courses that used project-based learning.We generate visualizations of aggregated git metrics using inequality measures and the contribution per module, which offer insights into the practices and processes followed by students and teams throughout the project development. This approach allowed us to identify inequality among students' contributions, the modules where students con-tributed, development processes with a non-steady pace, and integration practices render-ing a useful feedback tool for instructors and students during the project's development. Further studies can be conducted to assess the quality, complexity, and ownership of the contributions by analyzing software artifacts.
+    files: {}
+  - id: 2023HamerStudents
+    title: "Students' perceptions' of integrating a contribution measurement tool in software engineering projects"
+    link: "https://ieeexplore.ieee.org/document/10229405"
+    authors:
+      - "SH"
+      - "CQL"
+      - "MJ"
+    year: 2023
+    venue: "CSEE&T"
+    keywords:
+      - "measurement tool"
+      - "code contributions"
+      - "assessment"
+      - "empirical software engineering"
+      - "software engineering education"
+    isSlides: true
+    material: "https://zenodo.org/records/8075646"
+    abstract: >-
+      Measuring developers' and teams' contributions in project-based software engineering courses is challenging. Instructors require measurement tools to identify early improvement opportunities and simplify the assessment of students' contributions to projects. Besides, students could appreciate detailed, timely, and valuable feedback that encapsulates the multi-faceted nature of their contribution to improve their skills. With the rise of software repositories, data-driven tools that mine and visualize repository data have been proposed to help assess and improve software engineering courses. Still, little is known about students' perceptions of integrating these tools to measure project contributions. This paper analyzes students' perceptions of integrating a contribution measurement tool in agile software engineering projects. We collected the perceptions of 65 undergraduate students developing projects through a mixed-method approach. Our results show several benefits of using these tools in software engineering courses, providing valuable feedback, intending to use such tools in projects, and facilitating timely and helpful feedback. Additionally, students described the benefits of nine agile practices, including coding standards, reviews and inspections, and planning games. These tools were perceived as useful, easy to use, and intended to be used in future projects. Six challenges for integrating these tools in a course setting related to adoption, learning curves, configuration issues, measurement completeness, team dynamics, and Goodhart's law were found. Our results showed the acceptance and utility of such tools to aid students in software engineering projects.
+    files:
+      slides: "/files/slides/2023HamerStudents.pdf"
+  - id: 2023KulhmannSoftware
+    title: "Software Visualization using the City Metaphor: Students' Perceptions and Experiences"
+    link: "https://ieeexplore.ieee.org/abstract/document/10346099"
+    authors:
+      - "EK"
+      - "SH"
+      - "CQL"
+    year: 2023
+    venue: "CLEI"
+    keywords:
+      - "measurement tool"
+      - "code contributions"
+      - "assessment"
+      - "empirical software engineering"
+      - "software engineering education"
+    abstract: >-
+      Software visualization is a program comprehension technique that can support activities such as the analysis of the quality during the evolution of development. The empirical evaluation of software visualizations is necessary to provide evidence of perceptions and experiences of use, and the benefits provided during software analysis. Empirical data can help evidence the advantages and limitations of software visualizations, improving their acceptance in academia and industry. This study presents an analysis of the perceptions of 16 participants using a 3D city metaphor visualization to understand the structure of a web application and identify aspects related to development and quality best practices in a software engineering university course. For this, we studied the user experience through the UE Questionnaire (UEQ) and the ease of use, the perceived usefulness, and the intention of future use through the Technology Acceptance Model (TAM). Finally, benefits and opportunities were identified based on the perceptions of the participants and the results of the activity. The results indicate that the visualization of the city can support comprehension activities and help identify improvements in development and quality practices. Furthermore, this tool was positively perceived in the context of software engineering courses. Most of the acceptance and experience constructs were evaluated positively, with some opportunities identified regarding ease of use and visualization comprehension. In general, the visualization helped identify possible opportunities required for software applications under review.
+    files: {}
+  - id: 2024HamerJust
+    title: "Just another copy and paste? Comparing the security vulnerabilities of ChatGPT generated code and StackOverflow answers"
+    link: "https://ieeexplore.ieee.org/abstract/document/10579524"
+    authors:
+      - "SH"
+      - "LW"
+      - "MD"
+    year: 2024
+    venue: "DLSP"
+    keywords:
+      - "software engineering security"
+      - "empirical study"
+      - "large language models"
+      - "software supply chain"
+      - "code generation"
+    isSlides: true
+    material: "https://zenodo.org/records/10806611"
+    abstract: >-
+      Sonatype's 2023 report found that 97% of developers and security leads integrate generative Artificial Intelligence (AI), particularly Large Language Models (LLMs), into their development process. Concerns about the security implications of this trend have been raised. Developers are now weighing the benefits and risks of LLMs against other relied-upon information sources, such as StackOverflow (SO), requiring empirical data to inform their choice. In this work, our goal is to raise software developers’ awareness of the security implications when selecting code snippets by empirically comparing the vulnerabilities of ChatGPT and StackOverflow. To achieve this, we used an existing Java dataset from SO with security-related questions and answers. Then, we asked ChatGPT the same SO questions, gathering the generated code for comparison. After curating the dataset, we analyzed the number and types of Common Weakness Enumeration (CWE) vulnerabilities of 108 snippets from each platform using CodeQL. ChatGPT-generated code contained 248 vulnerabilities compared to the 302 vulnerabilities found in SO snippets, producing 20% fewer vulnerabilities with a statistically significant difference. Additionally, ChatGPT generated 19 types of CWE, fewer than the 22 found in SO. Our findings suggest developers are undereducated on insecure code propagation from both platforms, as we found 274 unique vulnerabilities and 25 types of CWE. Any code copied and pasted, created by AI or humans, cannot be trusted blindly, requiring good software engineering practices to reduce risk. Future work can help minimize insecure code propagation from any platform.
+    files:
+      slides: "/files/slides/2024HamerJust.pdf"
+  - id: 2024QuesadaExploring
+    title: "Exploring Students' Behaviors and Perceptions in Continuous Measurement of Software Projects"
+    authors:
+      - "CQL"
+      - "SH"
+      - "MJ"
+    year: 2024
+    venue: "CLEI"
+    abstract: >-
+      Continuous software engineering is increasingly ingrained and widely adopted in development projects. These projects have extended their processes by utilizing software measurement tools with dashboards to monitor and understand development best practices, quality, and evolution. Exploring development perceptions and behaviors in software engineering education and training contexts is needed to better understand how tools could aid development processes. The goal is to explore students’ perceptions and development behaviors in software engineering projects that continuously measure contributions. We conducted a case study, mainly focusing on agile software engineering and quality best practices, and gathered behaviors and perceptions through mining repositories and applying surveys. Our results show acceptance of continuous measurement, where most respondents agreed that it benefited their software development process. We found benefits in engineering and quality practices such as continuous integration and configuration management. Some of the perceived benefits related to agile practices did not always align with observed behaviors. Our results suggest that continuous measurement in software engineering education had mostly positive perceptions and outlooks on behaviors. These findings are encouraging for adopters of continuous measurement tools in education and training contexts. 
+    files: {}
+  - id: 2025HamerTrusting
+    title: "Trusting code in the wild: Exploring contributor reputation measures to review dependencies in the Rust ecosystem"
+    link: "https://doi.ieeecomputersociety.org/10.1109/TSE.2025.3551664"
+    authors:
+      - "SH"
+      - "NI"
+      - "MT"
+      - "PS"
+      - "LW"
+    year: 2025
+    venue: "TSE"
+    material: "https://zenodo.org/records/15015121"
+    abstract: >-
+      Developers rely on open-source packages and must review dependencies to safeguard against vulnerable or malicious upstream code. A careful review of all dependencies changes often does not occur in practice. Therefore, developers need signals to inform of dependency changes that require additional examination, particularly measures for contributor reputation. The goal of this study is to help developers prioritize dependency review efforts by analyzing contributor reputation measures as a signal in the Rust ecosystem. We use network centrality measures to proxy contributor reputation using collaboration activity. We employ a mixed method methodology from the top 1,644 packages in the Rust ecosystem to build a network of 6,949 developers, survey 285 developers, and model 5 centrality measures. Through our survey, we find that only 24% of respondents often review dependencies before adding or updating a package, mentioning difficulties in the review process and signals are therefore employed. Particularly, 51% of respondents often consider contributor reputation when reviewing dependencies. We further explore contributor reputation through network centrality measures employing multivariate mixed-effect linear regression models. We find that the closeness centrality measure is a significant factor in explaining how developers choose to review dependencies. Yet, centrality measures alone do not account for how developers choose to review dependencies. We recommend the Rust ecosystem implement a contributor reputation badge based on our modeled coefficients to complement developers' dependency review efforts.
+    files: {}
+  - id: 2025WilliamsResearch
+    title: "Research Directions in Software Supply Chain Security"
+    link: "https://dl.acm.org/doi/10.1145/3714464"
+    authors:
+      - "LW"
+      - "GB"
+      - "SH"
+      - "RP"
+      - "IR"
+      - "MT"
+      - "GT"
+      - "NZ"
+      - "PM"
+      - "YA"
+      - "MC"
+      - "CK"
+      - "AK"
+      - "DW"
+      - "WE"
+    year: 2025
+    venue: "TOSEM"
+    abstract: >-
+      Sonatype's 2023 report found that 97% of developers and security leads integrate generative Artificial Intelligence (AI), particularly Large Language Models (LLMs), into their development process. Concerns about the security implications of this trend have been raised. Developers are now weighing the benefits and risks of LLMs against other relied-upon information sources, such as StackOverflow (SO), requiring empirical data to inform their choice. In this work, our goal is to raise software developers’ awareness of the security implications when selecting code snippets by empirically comparing the vulnerabilities of ChatGPT and StackOverflow. To achieve this, we used an existing Java dataset from SO with security-related questions and answers. Then, we asked ChatGPT the same SO questions, gathering the generated code for comparison. After curating the dataset, we analyzed the number and types of Common Weakness Enumeration (CWE) vulnerabilities of 108 snippets from each platform using CodeQL. ChatGPT-generated code contained 248 vulnerabilities compared to the 302 vulnerabilities found in SO snippets, producing 20% fewer vulnerabilities with a statistically significant difference. Additionally, ChatGPT generated 19 types of CWE, fewer than the 22 found in SO. Our findings suggest developers are undereducated on insecure code propagation from both platforms, as we found 274 unique vulnerabilities and 25 types of CWE. Any code copied and pasted, created by AI or humans, cannot be trusted blindly, requiring good software engineering practices to reduce risk. Future work can help minimize insecure code propagation from any platform.
+    files: {}
+  - id: 2025WilliamsRising
+    title: "Can the Rising Tide of Software Supply Chain Attacks Raise All Software Engineering Boats?"
+    link: "https://dl.acm.org/doi/10.1145/3696630.3734200"
+    authors:
+      - "LW"
+      - "SH"
+      - "NZ"
+    year: 2025
+    venue: "FSE"
+    abstract: >-
+      Software organizations largely did not anticipate how the software supply chain (SSC) would become a deliberate attack vector. Attackers have moved from finding and exploiting vulnerabilities contributed by well-intentioned developers, such as log4j, to a new generation of software supply chain attacks, aggressively implanting vulnerabilities directly into dependencies available in open source. As with SolarWinds, adversaries also find their way into builds and deployments to deploy rogue software. Once implanted, these vulnerabilities become an efficient attack vector for adversaries to gain leverage at scale by exploiting the software supply chain. Software supply chain attacks have increased exponentially since 2020. These attacks have heightened awareness among governments and software organizations worldwide of the need for software development teams to adopt good software security practices - and, in the process, good software engineering practices. This awareness has led to two US Executive Orders, the EU Cyber Resilience Act, and other actions worldwide. For example, the CEOs of software organizations who sell to the US government now need to sign a document attesting that good software security/engineering practices were used. This paper will share an overview of these actions, empirical observations in the state-of-practice in software security practice adoption, automated software practice measurement, and how these efforts can move into general software engineering.
+    files: {}
+  - id: 2026HamerClosing
+    title: "Closing the Chain: How to reduce your risk of being SolarWinds, Log4j, or XZ Utils"
+    link: "https://arxiv.org/abs/2503.12192"
+    authors:
+      - "SH"
+      - "JB"
+      - "NH"
+      - "RH"
+      - "CM"
+      - "LW"
+    year: 2026
+    material: "https://zenodo.org/records/17546880"
+    venue: "ICSE"
+    abstract: >-
+      Software supply chain frameworks, such as the US NIST Secure Software Development Framework (SSDF), detail what tasks software development organizations are recommended or mandated to adopt to reduce security risk. However, to further reduce the risk of similar attacks occurring, software organizations benefit from knowing what tasks mitigate attack techniques the attackers are currently using to address specific threats, prioritize tasks, and close mitigation gaps. The goal of this study is to aid software organizations in reducing the risk of software supply chain attacks by systematically synthesizing how framework tasks mitigate the attack techniques used in the SolarWinds, Log4j, and XZ Utils attacks. We qualitatively analyzed 106 Cyber Threat Intelligence (CTI) reports of the 3 attacks to gather the attack techniques. We then systematically constructed a mapping between attack techniques and the 73 tasks enumerated in 10 software supply chain frameworks. Afterward, we established and ranked priority tasks that mitigate attack techniques. The three mitigation tasks with the highest scores are role-based access control, system monitoring, and boundary protection. Additionally, three mitigation tasks were missing from all ten frameworks, including sustainable open-source software and environmental scanning tools. Thus, software products would still be vulnerable to software supply chain attacks even if organizations adopted all recommended tasks.
+    files:
+      slides: "/files/slides/2026HamerClosing.pdf"
+  - id: 2026HamerTowards
+    title: "Towards a Software Supply Chain Security Barometer: A Model to Assess and Guide Community Efforts"
+    link: ""
+    authors:
+      - "SH"
+    year: 2026
+    venue: "ICSE-DS"
+    abstract: >-
+      Despite worldwide efforts across communities invested in software supply chain security, vulnerabilities continue to rise. Although more resources can be invested, a sustainable long-term solution would be to develop a model to assess the state of software supply chain security, guiding community efforts and direction. The goal of this dissertation proposal is to aid the software supply chain community in assessing and guiding organizational and ecosystem efforts by developing a barometer model of software supply chain security. We develop a barometer model to systematize the relationships between software security task adoption and security outcomes, providing feedback loops between both. The barometer model guides software organizations in prioritizing the adoption of software security tasks and policymakers in proposing data-driven efforts to improve software supply chain security.
+    files:
+      slides: "/files/posters/2026HamerTowards.pdf"
