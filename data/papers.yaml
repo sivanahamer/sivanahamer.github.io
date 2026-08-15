@@ -169,6 +169,7 @@ papers:
       slides: "/files/slides/2024HamerJust.pdf"
   - id: 2024QuesadaExploring
     title: "Exploring Students' Behaviors and Perceptions in Continuous Measurement of Software Projects"
+    link: "https://ieeexplore.ieee.org/document/10700134"
     authors:
       - "CQL"
       - "SH"
@@ -248,7 +249,6 @@ papers:
       slides: "/files/slides/2026HamerClosing.pdf"
   - id: 2026HamerTowards
     title: "Towards a Software Supply Chain Security Barometer: A Model to Assess and Guide Community Efforts"
-    link: ""
     authors:
       - "SH"
     year: 2026
