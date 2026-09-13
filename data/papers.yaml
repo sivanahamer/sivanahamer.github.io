@@ -232,7 +232,7 @@ papers:
     files: {}
   - id: 2026HamerClosing
     title: "Closing the Chain: How to reduce your risk of being SolarWinds, Log4j, or XZ Utils"
-    link: "https://arxiv.org/abs/2503.12192"
+    link: "https://dl.acm.org/doi/10.1145/3744916.3773194"
     authors:
       - "SH"
       - "JB"
@@ -249,6 +249,7 @@ papers:
       slides: "/files/slides/2026HamerClosing.pdf"
   - id: 2026HamerTowards
     title: "Towards a Software Supply Chain Security Barometer: A Model to Assess and Guide Community Efforts"
+    link: https://dl.acm.org/doi/10.1145/3774748.3787628
     authors:
       - "SH"
     year: 2026
@@ -256,4 +257,4 @@ papers:
     abstract: >-
       Despite worldwide efforts across communities invested in software supply chain security, vulnerabilities continue to rise. Although more resources can be invested, a sustainable long-term solution would be to develop a model to assess the state of software supply chain security, guiding community efforts and direction. The goal of this dissertation proposal is to aid the software supply chain community in assessing and guiding organizational and ecosystem efforts by developing a barometer model of software supply chain security. We develop a barometer model to systematize the relationships between software security task adoption and security outcomes, providing feedback loops between both. The barometer model guides software organizations in prioritizing the adoption of software security tasks and policymakers in proposing data-driven efforts to improve software supply chain security.
     files:
-      slides: "/files/posters/2026HamerTowards.pdf"
+      poster: "/files/posters/2026HamerTowards.pdf"
