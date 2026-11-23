@@ -3,7 +3,7 @@
   type: conference
 - venue: ICSE-DS
   name: International Conference on Software Engineering - Doctoral Symposium
-  type: conference
+  type: symposium
 - venue: FSE
   name: Foundations of Software Engineering
   type: conference
@@ -34,3 +34,6 @@
 - venue: QUATIC
   name: International Conference on the Quality of Information and Communications Technology
   type: conference
+- venue: arXiv
+  name: arXiv
+  type: report
